@@ -17,7 +17,7 @@ A simple terminal UI for both docker and docker-compose, written in Go with the 
 
 [Demo](https://youtu.be/NICqQPxwJWw)
 
-#用这个命令直接安装到/usr/local/bin
+# **用这个命令直接安装到/usr/local/bin**
 
 ```sh
 curl https://raw.githubusercontent.com/o0Lev1s0o/lazydocker/master/scripts/install_update_linux.sh | bash
