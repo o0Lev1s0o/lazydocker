@@ -20,5 +20,5 @@ GITHUB_URL="https://github.com/jesseduffield/lazydocker/releases/download/${GITH
 # install/update the local binary
 curl -L -o lazydocker.tar.gz $GITHUB_URL
 tar xzvf lazydocker.tar.gz lazydocker
-install -dm 755 lazydocker -t "$DIR"
+install -m 755 lazydocker -t "$DIR"
 rm lazydocker lazydocker.tar.gz
